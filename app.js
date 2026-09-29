@@ -76,6 +76,14 @@ app.get('/volleyball', (req, res) => {
     console.log('volleyball')
   });
 
+//playerCards route
+app.get('/playerCards', (req, res) => {
+    state={playerCards : true}
+    head={title:"playerCards - Week 1"}
+    res.render('playerCards', { state, head});
+    console.log('playerCards')
+  });
+
 // Start the server
 app.listen(3000, () => {
   console.log('Server is running on port 3000');
