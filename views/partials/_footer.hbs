@@ -1,4 +1,17 @@
-<footer>
+{{!-- <footer>
  <p>&copy; ATU Sligo 2026/27. Arif Taha - S00292948</p>
-</footer>
-    
+</footer> --}}
+
+<footer id="bottom">
+            <a class="internal" href="#top">Back to Top</a>
+            <p>&copy;2026 My top sports </p>
+            <nav>
+                <ul>
+                <li> <a class="{{#if state.index}}active{{/if}}" href="/"> Home </a></li>
+                <li> <a class="{{#if state.football}}active{{/if}}" href="football"> football </a></li>
+                <li> <a class="{{#if state.americanFootball}}active{{/if}}" href="americanFootball"> American football </a></li>
+                <li> <a class="{{#if state.volleyball}}active{{/if}}" href="volleyball"> Volleyball </a></li>
+                <li> <a class="{{#if state.basketball}}active{{/if}}" href="basketball"> Basketball </a></li>
+                </ul>
+            </nav>
+        </footer>

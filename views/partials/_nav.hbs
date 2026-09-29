@@ -1,9 +1,23 @@
 
-<nav>
+{{!-- <nav>
      <ul>
           <li ><a  class='{{#if state.home}}active{{/if}}' href='/'>Home</a></li>     
           <li><a class='{{#if state.contact}}active{{/if}}' href='contact'>Contact</a></li>
 
      </ul>
-</nav>
+</nav> --}}
 
+<nav>
+            <img style="float: left;" src="images/sports.jpg" alt="logo" height="100" width="100">
+            <h1>My Top Sports</h1>
+            <h4>This is a college project</h4>
+            <a class="internal" href="#bottom">Go to Bottom </a>
+            <!-- Navigation Section-->
+            <ul>
+                <li> <a class="{{#if state.index}}active{{/if}}" href="/"> Home </a></li>
+                <li> <a class="{{#if state.football}}active{{/if}}" href="football"> football </a></li>
+                <li> <a class="{{#if state.americanFootball}}active{{/if}}" href="americanFootball"> American football </a></li>
+                <li> <a class="{{#if state.volleyball}}active{{/if}}" href="volleyball"> Volleyball </a></li>
+                <li> <a class="{{#if state.basketball}}active{{/if}}" href="basketball"> Basketball </a></li>
+            </ul>
+        </nav>

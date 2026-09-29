@@ -1,4 +1,4 @@
-html, body {
+/* html, body {
     width: 90%;
     margin: 0 auto;
     padding: 0px;
@@ -17,4 +17,143 @@ nav li {
     background-color:green;
     padding:0.5em;
 
+} */
+
+.image {
+    margin: 0px;
+    
+}
+h1, h4 {
+    color: white;
+    text-align: center;
+    font-family: verdana;
+    margin: 0px;
+}
+h2 {
+    font-family: verdana;
+}
+nav {
+    background-color: red;
+    padding: 2px;
+}
+nav a {
+    text-align: center;
+    color: white;
+    font-family: verdana;
+    text-decoration-line: none;
+}
+.internal {
+    font-size: 0.85em;
+}
+.abc {
+    text-align: center;
+    margin-bottom: 15px;
+}
+nav ul {
+    margin-bottom: 0px;
+    text-align: center;
+    font-size: 1.2em;
+}
+nav ul li {
+    list-style-type: none;
+    display: inline;
+    padding: 2px;
+    margin: 5px;
+    font-family: verdana;
+    font-size: 0.8em;
+}
+nav ul li a:hover {
+    color: #000000;
+}
+#down {
+    color: white;
+    padding: 6px 12px;
+    border-radius: 0px;
+}
+#active {
+    background-color: teal;
+    color: white;
+    padding: 6px 12px;
+    border-radius: 0px;
+}
+nav ul li a {
+
+    color: white;
+    text-decoration: none;
+}
+main {
+    background-color: teal;
+    color: white;
+    margin: 0px;
+    padding: 0px;
+}
+body {
+    margin: 0px;
+    padding: 0px;
+}
+.video {
+    text-align: center;
+    max-width: 60%;
+}
+.normie {
+    margin-right: 10px;
+    margin-bottom: 10px;
+    width: 30%;
+}
+#content {
+    width: 100%;
+    border: 1px solid grey;
+}
+p {
+    text-align: justify;
+    font-family: verdana;
+    font-size: 0.9em;
+}
+table {
+    width: 80%;
+    border: 1px solid white;
+    border-collapse: collapse;
+    font-size: large;
+    text-align: center;
+    vertical-align: middle;
+    padding: 2px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+th,td {
+    border: 1px solid white;
+    text-align: left;
+    padding: 5px;
+}
+thead th {
+    width: 25%;
+}
+footer {
+    border: 1px solid red;
+    padding: 0px;
+    margin: 0px;
+    position: relative;
+    bottom: 0px;
+    width: 100%;
+    background-color: red;
+    text-align: center;
+    height: 50px;
+    color: white;
+    clear: both;
+}
+footer a {
+    color: white;
+    font-family: verdana;
+    text-decoration-line: none;
+}
+footer p {
+    border: 1px solid red;
+    padding: 0px;
+    margin: 0px;
+    position: relative;
+    bottom: 0px;
+    background-color: red;
+    text-align: center;
+    height: 30px;
+    color: white;
 }

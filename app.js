@@ -44,14 +44,37 @@ app.get('/', (req, res) => {
 
 });
 
-// contact route
-app.get('/contact', (req, res) => {
-    state={contact : true}
-    head={title:"Contact - Week 1"}
-    res.render('contact', { state, head});
-    console.log('contact')
+//americanFootball route
+app.get('/americanFootball', (req, res) => {
+    state={americanFootball : true}
+    head={title:"americanFootball - Week 1"}
+    res.render('americanFootball', { state, head});
+    console.log('americanFootball')
   });
 
+// basketball route
+app.get('/basketball', (req, res) => {
+    state={basketball : true}
+    head={title:"basketball - Week 1"}
+    res.render('basketball', { state, head});
+    console.log('basketball')
+  });
+
+//football route
+app.get('/football', (req, res) => {
+    state={football : true}
+    head={title:"football - Week 1"}
+    res.render('football', { state, head});
+    console.log('football')
+  });
+
+//volleyball route
+app.get('/volleyball', (req, res) => {
+    state={volleyball : true}
+    head={title:"volleyball - Week 1"}
+    res.render('volleyball', { state, head});
+    console.log('volleyball')
+  });
 
 // Start the server
 app.listen(3000, () => {
