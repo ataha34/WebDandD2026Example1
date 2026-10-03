@@ -76,12 +76,12 @@ app.get('/volleyball', (req, res) => {
     console.log('volleyball')
   });
 
-//playerCards route
-app.get('/playerCards', (req, res) => {
-    state={playerCards : true}
-    head={title:"playerCards - Week 1"}
-    res.render('playerCards', { state, head});
-    console.log('playerCards')
+//responsiveExample route
+app.get('/responsiveExample', (req, res) => {
+    state={responsiveExample : true}
+    head={title:"responsiveExample - Week 1"}
+    res.render('responsiveExample', { state, head});
+    console.log('responsiveExample')
   });
 
 // Start the server
